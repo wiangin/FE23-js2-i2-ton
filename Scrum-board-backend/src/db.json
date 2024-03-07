@@ -1,0 +1,23 @@
+[
+  {
+    "task": "Fixar skatteverkets hemsida. Deadline 24-05-01",
+    "category": "dev frontend",
+    "id": 1709799706370,
+    "progress": "to do",
+    "assign": ""
+  },
+  {
+    "task": "Möte med kund",
+    "category": "ux",
+    "id": 1709799797986,
+    "progress": "done",
+    "assign": "Ton"
+  },
+  {
+    "task": "Skapar server till skatteverket",
+    "category": "dev backend",
+    "id": 1709799828268,
+    "progress": "in progress",
+    "assign": "Ton"
+  }
+]

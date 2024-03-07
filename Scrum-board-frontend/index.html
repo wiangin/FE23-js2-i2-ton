@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" type="module"></script>
+   <link rel="shortcut icon" href="#" type="image/x-icon">
+   <link rel="stylesheet" href="./css/style.css">
+    <title>Scrum Board</title>
+</head>
+<body>
+
+    <header>
+        <h1>Scrum Board</h1>
+        <form id="taskForm">
+            <input id="taskInput" type="text" placeholder="New task" required>
+            <select>
+                <option value="dev backend">Dev Backend</option>
+                <option value="dev frontend">Dev Frontend</option>
+                <option value="ux">UX</option>
+            </select>
+            <button>Add</button>
+        </form>
+        <div id="devRoll">
+            <div id="uxStyle">UX</div>
+            <div id="backDevStyle">Dev Backend</div>
+            <div id="frontDevStyle">Dev Frontend</div>
+        </div>
+    </header>
+
+    <section>
+        <div id="div1" class="divInsideSection">
+            <h2>To do</h2>
+            <div id="toDoDiv"></div>
+        </div>
+ 
+        <div id="div2" class="divInsideSection">
+            <h2>In Progress</h2>
+            <div id="inProgressDiv">
+              
+            </div>
+        </div>
+
+        <div id="div3" class="divInsideSection">
+            <h2>Done</h2>
+            <div id="doneDiv">
+               
+            </div>
+        </div>
+   
+    </section>
+    <dialog id="myDialog">
+        <div id="errorMessage"></div>
+        <button id="closeBtn">OK</button>
+    </dialog>
+</body>
+</html>

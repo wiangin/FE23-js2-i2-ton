@@ -1,0 +1,112 @@
+:root{
+    --ux-color: hsl(30, 63%, 54%);
+    --frontend-color: hsl(236, 23%, 66%);
+    --backend-color: hsl(178, 23%, 66%);
+}
+
+body{
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(170, 163, 163);
+}
+header h1{
+    padding-top: 1rem;
+}
+
+#devRoll{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+#devRoll div {
+    padding: 1rem;
+}
+
+#uxStyle{
+    background-color: var(--ux-color);
+    border-radius: 10px;
+}#frontDevStyle{
+    background-color: var(--frontend-color);
+    border-radius: 10px;
+}
+#backDevStyle{
+    background-color: var(--backend-color);
+    border-radius: 10px;
+}
+
+#mainDiv{
+    background-color: rgb(93, 69, 69);
+    margin-top: 3.4rem;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.divInsideSection{
+    border: 1px solid rgb(241, 241, 241);
+    width: 320px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.divInsideSection h2{
+    text-align: center;
+}
+
+.uxDivStyle{
+    background-color: var(--ux-color);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0.7rem;
+}
+.frontendDivStyle{
+    background-color: var(--frontend-color);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0.7rem;
+    padding: 15px;
+}
+
+.backendDivStyle{
+    background-color:var(--backend-color);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0.7rem;
+    padding: 15px;
+}
+
+.hide{
+    display: none;
+}
+
+#myDialog{
+    padding: 2rem;
+}
+
+#myDialog button{
+    position: absolute;
+    bottom: 10px;
+    right: 19px;
+}
+
+::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      magenta,
+      rebeccapurple,
+      dodgerblue,
+      green
+    );
+    opacity: 0.75;
+  }
+
+
